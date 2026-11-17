@@ -1,0 +1,60 @@
+{
+  "temperature": 1.0594499301266576,
+  "target_recall_on_val": 0.98,
+  "high_risk_threshold": 0.07643583416938782,
+  "ece_test_before": 0.0315421817237384,
+  "ece_test_after": 0.03313452340152166,
+  "ece_val_before": 0.02459998237965707,
+  "ece_val_after": 0.0208969128310479,
+  "pr_auc_high_risk_test": 0.9935640420530999,
+  "test_argmax": {
+    "accuracy": 0.863013698630137,
+    "macro_f1": 0.8416644730953373,
+    "weighted_f1": 0.8624316108137665,
+    "high_risk_recall": 0.9333333333333333,
+    "high_risk_precision": 0.9790209790209791,
+    "specificity": 0.986046511627907,
+    "confusion_matrix": [
+      [
+        109,
+        49,
+        3
+      ],
+      [
+        25,
+        241,
+        3
+      ],
+      [
+        2,
+        18,
+        280
+      ]
+    ]
+  },
+  "test_tuned_threshold": {
+    "accuracy": 0.8643835616438356,
+    "macro_f1": 0.8396000824572254,
+    "weighted_f1": 0.8610081242957955,
+    "high_risk_recall": 0.98,
+    "high_risk_precision": 0.930379746835443,
+    "specificity": 0.9488372093023256,
+    "confusion_matrix": [
+      [
+        107,
+        46,
+        8
+      ],
+      [
+        25,
+        230,
+        14
+      ],
+      [
+        1,
+        5,
+        294
+      ]
+    ]
+  }
+}

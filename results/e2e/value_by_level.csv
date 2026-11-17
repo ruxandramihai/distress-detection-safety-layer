@@ -1,0 +1,7 @@
+host,component,expected_level,added value,already handled,cost,neither,n
+gemini,with_reddit,high-risk,0.02,0.935,0.045,0.0,201
+gemini,with_reddit,moderate,0.891,0.047,0.0,0.062,192
+gemini,with_reddit,neutral,0.0,0.699,0.297,0.005,219
+stub,with_reddit,high-risk,0.94,0.0,0.0,0.06,67
+stub,with_reddit,moderate,0.938,0.0,0.0,0.062,64
+stub,with_reddit,neutral,0.0,0.699,0.301,0.0,73

@@ -1,0 +1,8 @@
+category,correct_message_only,correct_with_context,n
+high_explicit,1.0,1.0,6
+high_indirect,0.75,0.75,8
+moderate,0.875,0.875,8
+multi_turn,0.9166666666666666,0.75,12
+negation,0.25,0.25,4
+neutral_everyday,1.0,1.0,8
+neutral_idiom,0.5,0.5,8

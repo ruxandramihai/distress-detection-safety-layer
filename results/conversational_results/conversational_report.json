@@ -1,0 +1,134 @@
+{
+  "n_messages": 150,
+  "mean_words_per_class": {
+    "high-risk": 30.3,
+    "moderate": 32.4,
+    "neutral": 30.0
+  },
+  "conversational_argmax": {
+    "accuracy": 0.72,
+    "macro_f1": 0.7209503797095037,
+    "weighted_f1": 0.7209503797095038,
+    "high_risk_recall": 0.5,
+    "high_risk_precision": 1.0,
+    "specificity": 1.0,
+    "per_class_f1": {
+      "neutral": 0.795,
+      "moderate": 0.701,
+      "high-risk": 0.667
+    },
+    "confusion_matrix": [
+      [
+        35,
+        15,
+        0
+      ],
+      [
+        2,
+        48,
+        0
+      ],
+      [
+        1,
+        24,
+        25
+      ]
+    ],
+    "macro_f1_95ci": [
+      0.645,
+      0.785
+    ],
+    "high_risk_recall_95ci": [
+      0.357,
+      0.633
+    ]
+  },
+  "conversational_tuned": {
+    "accuracy": 0.86,
+    "macro_f1": 0.8589610389610388,
+    "weighted_f1": 0.8589610389610389,
+    "high_risk_recall": 0.96,
+    "high_risk_precision": 0.96,
+    "specificity": 0.98,
+    "per_class_f1": {
+      "neutral": 0.795,
+      "moderate": 0.821,
+      "high-risk": 0.96
+    },
+    "confusion_matrix": [
+      [
+        35,
+        15,
+        0
+      ],
+      [
+        2,
+        46,
+        2
+      ],
+      [
+        1,
+        1,
+        48
+      ]
+    ],
+    "macro_f1_95ci": [
+      0.802,
+      0.908
+    ],
+    "high_risk_recall_95ci": [
+      0.894,
+      1.0
+    ]
+  },
+  "reddit_argmax": {
+    "accuracy": 0.863013698630137,
+    "macro_f1": 0.8416644730953373,
+    "weighted_f1": 0.8624316108137665,
+    "high_risk_recall": 0.9333333333333333,
+    "high_risk_precision": 0.9790209790209791,
+    "specificity": 0.986046511627907,
+    "confusion_matrix": [
+      [
+        109,
+        49,
+        3
+      ],
+      [
+        25,
+        241,
+        3
+      ],
+      [
+        2,
+        18,
+        280
+      ]
+    ]
+  },
+  "reddit_tuned": {
+    "accuracy": 0.8643835616438356,
+    "macro_f1": 0.8396000824572254,
+    "weighted_f1": 0.8610081242957955,
+    "high_risk_recall": 0.98,
+    "high_risk_precision": 0.930379746835443,
+    "specificity": 0.9488372093023256,
+    "confusion_matrix": [
+      [
+        107,
+        46,
+        8
+      ],
+      [
+        25,
+        230,
+        14
+      ],
+      [
+        1,
+        5,
+        294
+      ]
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+host,condition,hr_escalated,hr_escalated_in_all_repeats,moderate_checkin_or_escalation,neutral_interrupted,potentially_harmful,mean_component_ms,n_turns
+gemini,with_reddit,0.955,0.955,0.938,0.301,0.015,36.086,612
+gemini,without,0.98,0.955,0.047,0.005,0.003,0.0,612
+stub,with_reddit,0.94,0.94,0.938,0.301,0.02,38.574,204
+stub,without,0.0,0.0,0.0,0.0,0.328,0.0,204
